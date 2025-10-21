@@ -1,0 +1,20 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "소냐가 만든 토키 포나(tokipona)의 단어들을 모은 비공식 사전. 그래서 그런지 비공식 단어도 많음. 공식 단어들도 많고. 사이트 안에서 직접 단어를 추가할수 있고, 그렇게 추가한 단어를 사이트 데이터베이스에 저장할수 있음.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
