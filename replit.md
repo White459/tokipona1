@@ -12,7 +12,7 @@ This is an unofficial Toki Pona dictionary web application created by Sonya. Use
 - **Dependencies**: express, pg, cors, dotenv
 
 ### Project Structure
-```
+\`\`\`
 .
 ├── public/
 │   ├── index.html      # Main UI
@@ -22,7 +22,7 @@ This is an unofficial Toki Pona dictionary web application created by Sonya. Use
 ├── package.json        # Node.js dependencies
 ├── .env.example        # Environment variables template
 └── replit.md          # This file
-```
+\`\`\`
 
 ## Features
 - Add new Toki Pona words with Korean and English meanings
@@ -41,7 +41,7 @@ To set up the database:
 4. The application will automatically create the necessary `words` table on first run
 
 ### Database Schema
-```sql
+\`\`\`sql
 CREATE TABLE words (
     id SERIAL PRIMARY KEY,
     word VARCHAR(255) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE words (
     is_official BOOLEAN DEFAULT false,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )
-```
+\`\`\`
 
 ## API Endpoints
 - `GET /api/words` - Get all words
